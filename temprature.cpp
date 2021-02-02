@@ -1,4 +1,5 @@
 //Temprature Conversion Functions
+//Formulas provided by Google's Units Conversion tools
 namespace TempConversion{
 	//Convert Celcius to Kelvin
 	double Celcius2Kelvin(double temp){
