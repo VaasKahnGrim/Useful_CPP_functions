@@ -1,5 +1,5 @@
 # Useful_CPP_functions
-Various useful C++ functions 
+Various useful C++ functions(with optional Nelua versions)
 
 
 # Functions
