@@ -1,0 +1,34 @@
+//Temprature Conversion Functions
+//Formulas provided by Google's Units Conversion tools
+
+//Convert Celcius to Kelvin
+global function Celcius2Kelvin(temp: number): number
+	return temp+273.15
+end
+
+//Convert Celcius to Fahrenheit
+global function Celcius2Fahrenheit(temp: number): number
+	return (temp*9/5)+32
+end
+
+//Convert Fahrenheit to Kelvin
+global function Fahrenheit2Kelvin(temp: number): number
+	return ((temp-32)*5/9)+273.15
+end
+
+//Convert Fahrenheit to Celcius
+global function Fahrenheit2Celcius(temp: number): number
+	return (temp-32)*5/9
+end
+
+//Convert Kelvin to Celcius
+global function Kelvin2Celcius(temp: number): number
+	return temp-273.15
+end
+
+//Convert Kelvin to Fahrenheit
+global function Kelvin2Fahrenheit(temp: number): number
+	return ((temp-273)*9/5)+32
+end
+
+
